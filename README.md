@@ -46,7 +46,7 @@ The final step of this project was to apply the original model parameters to a n
 
 ![linear regression](https://raw.githubusercontent.com/tycastleberry/Challenge14/main/Linear_Regression.png)
 
-This LinearRegression model greatly underperformed compared to the market from 2018 through 2019. In early 2020, The model began to perform similarly to the market, but never broke through to outperform it.
+This LogisticRegression model greatly underperformed compared to the market from 2018 through 2019. In early 2020, The model began to perform similarly to the market, but never broke through to outperform it.
 
 ---
 
@@ -54,7 +54,7 @@ This LinearRegression model greatly underperformed compared to the market from 2
 
 In conclusion, the baseline model ultimately proved to be the best performing model. Among the two tuned models, the adjusted training dataset input parameters provided a better model than the adjusted SMA values. However, the baseline model was still a much better algorithm than either one of these tuned models.
 
-The LinearRegression model did not perform well when compared to the baseline model or the tuned model with the adjusted training dataset size. The baseline model was profitable for most of the timeframe, but the LinearRegression model was not and struggled to keep up with the actual market even in the later years of the timeframe. The adjusted training size model was not profitable at first, but eventually overcame this and became profitable. The LinearRegression model failed to ever become profitable and therefore was the least favorable model. 
+The LogisticRegression model did not perform well when compared to the baseline model or the tuned model with the adjusted training dataset size. The baseline model was profitable for most of the timeframe, but the LogisticRegression model was not and struggled to keep up with the actual market even in the later years of the timeframe. The adjusted training size model was not profitable at first, but eventually overcame this and became profitable. The LogisticRegression model failed to ever become profitable and therefore was the least favorable model. 
 
 The baseline model was the most profitable and appears to offer the least amount of risk. This model would be acceptable to users who are risk-averse because the likelihood of profitability is high without much added risk. The tuned model would be a decent choice for someone who had a large appetite for risk because it was not profitable for a large stretch of time before it eventually got over the hump and beat the market. This model comes with a much higher chance of loss and should be used with caution. The LogisticRegression model should not be used at all. It severely underperformed the other models and the actual market, leaving no reason to use it when compared to the other models.
 
